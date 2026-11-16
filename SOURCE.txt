@@ -1,0 +1,10 @@
+# Source and license
+
+This plugin is GPL-2.0-or-later; see LICENSE. Composer retains its MIT notice in vendor/composer/LICENSE.
+
+Editable PHP and the bundled shared core are included in this ZIP.
+The public source repository is https://github.com/bixisoft/rankavia-redirects-404/tree/v0.1.0-preview.1 .
+There is no compiled JavaScript in this plugin.
+
+This preview includes already-vendored dependencies. Do not run composer install in the installed plugin.
+Built from bixisoft-plugins 44398de5c53554087b3933eb9d630c6ac1baf67f.

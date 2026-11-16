@@ -1,0 +1,31 @@
+{
+    "name": "bixisoft/rankavia-redirects-404",
+    "description": "Rankavia Redirects & 404 – exact redirects, automatic redirects for changed addresses and a private 404 list for WordPress.",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "php": ">=7.4",
+        "bixisoft/core-php": "*"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../../packages/core-php",
+            "options": {
+                "symlink": false
+            }
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bixisoft\\RankaviaRedirects\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true,
+        "platform": {
+            "php": "7.4.33"
+        }
+    }
+}

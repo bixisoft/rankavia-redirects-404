@@ -1,0 +1,32 @@
+<?php return array(
+    'root' => array(
+        'name' => 'bixisoft/rankavia-redirects-404',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '44398de5c53554087b3933eb9d630c6ac1baf67f',
+        'type' => 'wordpress-plugin',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => false,
+    ),
+    'versions' => array(
+        'bixisoft/core-php' => array(
+            'pretty_version' => '0.1.0',
+            'version' => '0.1.0.0',
+            'reference' => 'c25757e3a045e351ac86986e8c01e2ada91d870f',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../bixisoft/core-php',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'bixisoft/rankavia-redirects-404' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '44398de5c53554087b3933eb9d630c6ac1baf67f',
+            'type' => 'wordpress-plugin',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
